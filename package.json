@@ -1,6 +1,6 @@
 {
   "name": "@prelude/array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Array module.",
   "type": "module",
   "main": "index.js",
