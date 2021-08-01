@@ -5,6 +5,7 @@ import bsearch from './bsearch.js'
 import clone from './clone.js'
 import deleteSwapRandom from './delete-swap-random.js'
 import first from './first.js'
+import groups from './groups.js'
 import indices from './indices.js'
 import last from './last.js'
 import maybeAt from './maybe-at.js'
@@ -20,6 +21,7 @@ import sort from './sort.js'
 import sorted from './sorted.js'
 import swap from './swap.js'
 import swapDelete from './swap-delete.js'
+import unique from './unique.js'
 import zeroes from './zeroes.js'
 
 export {
@@ -30,6 +32,7 @@ export {
   Cmp,
   deleteSwapRandom,
   first,
+  groups,
   indices,
   last,
   maybeAt,
@@ -45,5 +48,6 @@ export {
   sorted,
   swap,
   swapDelete,
+  unique,
   zeroes
 }
