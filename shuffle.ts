@@ -1,4 +1,4 @@
-import swap from './swap'
+import swap from './swap.js'
 
 /** In-place shuffle. */
 const shuffle =

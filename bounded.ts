@@ -1,4 +1,4 @@
-import at from './at'
+import at from './at.js'
 
 /** Like `at` but bounds less than zero index to 0 and out of bound to last. */
 const bounded =
