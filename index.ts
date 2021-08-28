@@ -14,6 +14,7 @@ import maybeLast from './maybe-last.js'
 import modulo from './modulo.js'
 import nulls from './nulls.js'
 import of from './of.js'
+import permutations from './permutations.js'
 import randomIndex from './random-index.js'
 import shuffle from './shuffle.js'
 import shuffled from './shuffled.js'
@@ -41,6 +42,7 @@ export {
   modulo,
   nulls,
   of,
+  permutations,
   randomIndex,
   shuffle,
   shuffled,
