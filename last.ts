@@ -3,7 +3,7 @@
  * @throws {TypeError}
  */
 const last =
-  <T>(values: T[]): T => {
+  <T>(values: readonly T[]): T => {
     if (!values.length) {
       throw new TypeError('Expected non empty array to get last element.')
     }

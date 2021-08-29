@@ -1,5 +1,5 @@
 const clone =
-  <T>(values: T[]): T[] =>
-    values.slice(0)
+  <T>(values: readonly T[]): T[] =>
+    values.slice()
 
 export default clone
