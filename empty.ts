@@ -1,3 +1,3 @@
 export const empty =
-  (values: unknown[]): boolean =>
+  (values: readonly unknown[]): boolean =>
     values.length === 0

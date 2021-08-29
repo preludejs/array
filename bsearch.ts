@@ -1,7 +1,7 @@
 type Cmp1<T> = (a: T) => -1 | 0 | 1
 
 const bsearch =
-  <T>(values: T[], cmp: Cmp1<T>): number => {
+  <T>(values: readonly T[], cmp: Cmp1<T>): number => {
     let low = 0
     let high = values.length - 1
     while (low <= high) {
