@@ -11,11 +11,13 @@ import last from './last.js'
 import maybeAt from './maybe-at.js'
 import maybeFirst from './maybe-first.js'
 import maybeLast from './maybe-last.js'
+import maybeSample from './maybe-sample.js'
 import modulo from './modulo.js'
 import nulls from './nulls.js'
 import of from './of.js'
 import permutations from './permutations.js'
 import randomIndex from './random-index.js'
+import sample from './sample.js'
 import shuffle from './shuffle.js'
 import shuffled from './shuffled.js'
 import sort from './sort.js'
@@ -39,11 +41,13 @@ export {
   maybeAt,
   maybeFirst,
   maybeLast,
+  maybeSample,
   modulo,
   nulls,
   of,
   permutations,
   randomIndex,
+  sample,
   shuffle,
   shuffled,
   sort,
