@@ -1,4 +1,4 @@
-import randomIndex from './random-index'
+import randomIndex from './random-index.js'
 
 /**
  * @returns random element.
