@@ -23,7 +23,8 @@ import shuffled from './shuffled.js'
 import sort from './sort.js'
 import sorted from './sorted.js'
 import swap from './swap.js'
-import swapDelete from './swap-delete.js'
+import swapDeleteAt from './swap-delete-at.js'
+import swapDeleteFirst from './swap-delete-first.js'
 import unique from './unique.js'
 import zeroes from './zeroes.js'
 
@@ -53,7 +54,8 @@ export {
   sort,
   sorted,
   swap,
-  swapDelete,
+  swapDeleteAt,
+  swapDeleteFirst,
   unique,
   zeroes
 }

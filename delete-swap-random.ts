@@ -1,5 +1,5 @@
 import randomIndex from './random-index.js'
-import swapDelete from './swap-delete.js'
+import swapDeleteAt from './swap-delete-at.js'
 
 /**
  * Deletes and returns random element. Removed element is replaced by last element.
@@ -8,6 +8,6 @@ import swapDelete from './swap-delete.js'
  */
 const deleteSwapRandom =
   <T>(values: T[]): T =>
-    swapDelete(values, randomIndex(values.length))
+    swapDeleteAt(values, randomIndex(values.length))
 
 export default deleteSwapRandom
