@@ -1,4 +1,4 @@
-import * as A from '../index.js'
+import * as A from '../cjs/index.js'
 
 const p = _ => Array.from(A.permutations(_.split(''))).map(_ => _.join(''))
 
