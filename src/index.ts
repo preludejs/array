@@ -15,6 +15,7 @@ import maybeSample from './maybe-sample.js'
 import modulo from './modulo.js'
 import nulls from './nulls.js'
 import of from './of.js'
+import ones from './ones.js'
 import permutations from './permutations.js'
 import randomIndex from './random-index.js'
 import sample from './sample.js'
@@ -46,6 +47,7 @@ export {
   modulo,
   nulls,
   of,
+  ones,
   permutations,
   randomIndex,
   sample,
