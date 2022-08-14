@@ -9,7 +9,7 @@ test('deleteSwapRandom', () => {
     c.push(A.deleteSwapRandom(b))
   }
   expect(c).toHaveLength(1000)
-  expect(A.sorted(c, A.Cmp.numbers)).toEqual(a)
+  expect(A.sorted(c, A.Cmp.number)).toEqual(a)
 })
 
 test('unique', () => {
