@@ -4,6 +4,7 @@ import bounded from './bounded.js'
 import bsearch from './bsearch.js'
 import clone from './clone.js'
 import deleteSwapRandom from './delete-swap-random.js'
+import filter from './filter.js'
 import first from './first.js'
 import groups from './groups.js'
 import indices from './indices.js'
@@ -36,6 +37,7 @@ export {
   clone,
   Cmp,
   deleteSwapRandom,
+  filter,
   first,
   groups,
   indices,
