@@ -10,6 +10,7 @@ import first from './first.js'
 import groups from './groups.js'
 import indices from './indices.js'
 import last from './last.js'
+import map from './map.js'
 import maybeAt from './maybe-at.js'
 import maybeFirst from './maybe-first.js'
 import maybeLast from './maybe-last.js'
@@ -44,6 +45,7 @@ export {
   groups,
   indices,
   last,
+  map,
   maybeAt,
   maybeFirst,
   maybeLast,
