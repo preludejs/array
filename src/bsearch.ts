@@ -1,6 +1,8 @@
-type Cmp1<T> = (a: T) => -1 | 0 | 1
+export type Cmp1<T> =
+  (a: T) =>
+    -1 | 0 | 1
 
-const bsearch =
+export const bsearch =
   <T>(values: T[], cmp: Cmp1<T>): number => {
     let low = 0
     let high = values.length - 1

@@ -1,5 +1,5 @@
 /** @returns an array of `n` zeroes. */
-const zeroes =
+export const zeroes =
   (n: number): number[] =>
     new Array(n).fill(0)
 

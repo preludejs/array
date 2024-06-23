@@ -1,8 +1,9 @@
+import clone from './clone.js'
 import shuffle from './shuffle.js'
 
 /** @returns shuffled array. */
-const shuffled =
-  <T>(values: T[]): T[] =>
-    shuffle(values.slice(0))
+export const shuffled =
+  <T>(values: readonly T[]): T[] =>
+    shuffle(clone(values))
 
 export default shuffled

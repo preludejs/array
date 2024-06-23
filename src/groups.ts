@@ -1,5 +1,5 @@
 /** @returns values grouped by key (result of `keyOfValue`). */
-const groups =
+export const groups =
   <T, R extends boolean | number | symbol | string>(values: T[], keyOfValue: (value: T) => R): T[][] => {
     const groups_ = new Map<R, T[]>()
     for (const value of values) {

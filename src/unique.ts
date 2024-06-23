@@ -1,5 +1,5 @@
 /** @returns unique array. */
-const unique =
+export const unique =
   <T, R extends boolean | number | symbol | string>(values: T[], keyOfValue: (value: T) => R): T[] => {
     const seen = new Set<R>()
     return values.filter(_ => {

@@ -1,10 +1,24 @@
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=bugs)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=coverage)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=preludejs_array&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=preludejs_array)
+
+---
+
 # Array module
 
 * `at: <T>(values: T[], index: number) => T`
 
   Returns value at `index`.
 
-  Throws {TypeError} if index is out of bounds.
+  Throws {Error} if index is out of bounds.
 
 * `bounded: <T>(values: T[], index: number) => T`
 
@@ -20,7 +34,7 @@
 
   Deletes and returns random element. Removed element is replaced by last element.
 
-  Throws {TypeError} if `values` array is empty.
+  Throws {Error} if `values` array is empty.
 
   Returns deleted element.
 
@@ -42,7 +56,7 @@
 
   Returns last element of an array.
 
-  Throws {TypeError}
+  Throws {Error}
 
 * `maybeAt: <T>(values: T[], index: number) => T`
 
@@ -64,7 +78,7 @@
 
   Like `at` but wraps using modulo on length.
 
-  Throws {TypeError} if array is empty or index is not a safe integer.
+  Throws {Error} if array is empty or index is not a safe integer.
 
 * `nulls: (n: number) => null[]`
 

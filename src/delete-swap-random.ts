@@ -3,10 +3,10 @@ import swapDeleteAt from './swap-delete-at.js'
 
 /**
  * Deletes and returns random element. Removed element is replaced by last element.
- * @throws {TypeError} if `values` array is empty.
+ * @throws {Error} if `values` array is empty.
  * @returns deleted element.
  */
-const deleteSwapRandom =
+export const deleteSwapRandom =
   <T>(values: T[]): T =>
     swapDeleteAt(values, randomIndex(values.length))
 

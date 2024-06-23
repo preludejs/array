@@ -1,11 +1,11 @@
 /**
  * @returns last element of an array.
- * @throws {TypeError}
+ * @throws {Error}
  */
-const last =
+export const last =
   <T>(values: T[]): T => {
-    if (!values.length) {
-      throw new TypeError('Expected non empty array to get last element.')
+    if (values.length === 0) {
+      throw new Error('Expected non empty array to get last element.')
     }
     return values[values.length - 1]
   }

@@ -1,7 +1,8 @@
 import swap from './swap.js'
+import type { Predicate } from './predicate.js'
 
-const swapDeleteFirst =
-  <T>(values: T[], predicate: (value: T, index: number, values: T[]) => boolean): undefined | T => {
+export const swapDeleteFirst =
+  <T>(values: T[], predicate: Predicate<T>): undefined | T => {
     const index = values.findIndex(predicate)
     if (index === -1) {
       return undefined
