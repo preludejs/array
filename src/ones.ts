@@ -1,4 +1,4 @@
-const ones =
+export const ones =
   (n: number): number[] =>
     new Array(n).fill(1)
 

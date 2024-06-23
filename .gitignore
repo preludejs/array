@@ -1,7 +1,8 @@
 *.js
-node_modules
-mjs
-cjs
 .vscode/configurationCache.log
 .vscode/dryrun.log
 .vscode/targets.log
+cjs
+coverage
+mjs
+node_modules

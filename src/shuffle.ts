@@ -1,14 +1,14 @@
 import swap from './swap.js'
 
 /** In-place shuffle. */
-const shuffle =
-  <T>(values: T[]): T[] => {
-    let n = values.length
-    while (n) {
+export const shuffle =
+  <T>(mutableValues: T[]): T[] => {
+    let n = mutableValues.length
+    while (n > 0) {
       const i = Math.floor(Math.random() * n--)
-      swap(values, n, i)
+      swap(mutableValues, n, i)
     }
-    return values
+    return mutableValues
   }
 
 export default shuffle

@@ -5,7 +5,7 @@ test('deleteSwapRandom', () => {
   const b = A.clone(a)
   expect(a).toEqual(b)
   const c: number[] = []
-  while (b.length) {
+  while (b.length > 0) {
     c.push(A.deleteSwapRandom(b))
   }
   expect(c).toHaveLength(1000)

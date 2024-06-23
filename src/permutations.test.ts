@@ -1,6 +1,10 @@
 import * as A from './index.js'
 
-const p = _ => Array.from(A.permutations(_.split(''))).map(_ => _.join(''))
+const p =
+  (value: string) =>
+    Array
+      .from(A.permutations(value.split('')))
+      .map(_ => _.join(''))
 
 test('permutations', () => {
   expect(p('')).toEqual([

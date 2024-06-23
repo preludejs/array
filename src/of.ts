@@ -1,7 +1,7 @@
-const of =
-  <T>(n: number, valueOrFunction: T | ((index: number) => T)): T[] =>
+export const of =
+  <T>(length: number, valueOrFunction: T | ((index: number) => T)): T[] =>
     typeof valueOrFunction === 'function' ?
-      Array.from(Array(n), (_, index) => (valueOrFunction as ((index_: number) => T))(index)) :
-      Array.from(Array(n), () => valueOrFunction)
+      Array.from({ length }, (_, index) => (valueOrFunction as ((index_: number) => T))(index)) :
+      Array.from({ length }, () => valueOrFunction)
 
 export default of

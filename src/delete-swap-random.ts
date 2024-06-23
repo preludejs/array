@@ -6,7 +6,7 @@ import swapDeleteAt from './swap-delete-at.js'
  * @throws {TypeError} if `values` array is empty.
  * @returns deleted element.
  */
-const deleteSwapRandom =
+export const deleteSwapRandom =
   <T>(values: T[]): T =>
     swapDeleteAt(values, randomIndex(values.length))
 

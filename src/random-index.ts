@@ -1,4 +1,4 @@
-const randomIndex =
+export const randomIndex =
   (length: number): number => {
     if (length < 1) {
       throw new TypeError(`Can't get random index for length ${length}.`)

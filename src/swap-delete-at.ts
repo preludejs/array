@@ -1,6 +1,6 @@
 import swap from './swap.js'
 
-const swapDeleteAt =
+export const swapDeleteAt =
   <T>(values: T[], index: number): T => {
     if (index < 0 || index >= values.length) {
       throw new TypeError(`Out of bounds index ${index}, length ${values.length}.`)

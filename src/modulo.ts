@@ -2,7 +2,7 @@
  * Like `at` but wraps using modulo on length.
  * @throws {TypeError} if array is empty or index is not a safe integer.
  */
-const modulo =
+export const modulo =
   <T>(values: T[], index: number): T => {
     if (!Number.isSafeInteger(index)) {
       throw new TypeError(`Expected safe integer index, got ${index}.`)
