@@ -27,7 +27,7 @@
   "devDependencies": {
     "@swc/core": "1.6.5",
     "@swc/jest": "0.2.36",
-    "@tsconfig/node18": "18.2.4",
+    "@tsconfig/node20": "20.1.4",
     "@types/jest": "29.5.12",
     "@types/node": "20.14.7",
     "eslint": "9.5.0",
