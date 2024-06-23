@@ -18,7 +18,7 @@
 
   Returns value at `index`.
 
-  Throws {TypeError} if index is out of bounds.
+  Throws {Error} if index is out of bounds.
 
 * `bounded: <T>(values: T[], index: number) => T`
 
@@ -34,7 +34,7 @@
 
   Deletes and returns random element. Removed element is replaced by last element.
 
-  Throws {TypeError} if `values` array is empty.
+  Throws {Error} if `values` array is empty.
 
   Returns deleted element.
 
@@ -56,7 +56,7 @@
 
   Returns last element of an array.
 
-  Throws {TypeError}
+  Throws {Error}
 
 * `maybeAt: <T>(values: T[], index: number) => T`
 
@@ -78,7 +78,7 @@
 
   Like `at` but wraps using modulo on length.
 
-  Throws {TypeError} if array is empty or index is not a safe integer.
+  Throws {Error} if array is empty or index is not a safe integer.
 
 * `nulls: (n: number) => null[]`
 

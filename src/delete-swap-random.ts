@@ -3,7 +3,7 @@ import swapDeleteAt from './swap-delete-at.js'
 
 /**
  * Deletes and returns random element. Removed element is replaced by last element.
- * @throws {TypeError} if `values` array is empty.
+ * @throws {Error} if `values` array is empty.
  * @returns deleted element.
  */
 export const deleteSwapRandom =

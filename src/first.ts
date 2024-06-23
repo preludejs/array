@@ -5,7 +5,7 @@
 export const first =
   <T>(values: T[]): T => {
     if (values.length === 0) {
-      throw new TypeError('Expected non empty array to get first element.')
+      throw new Error('Expected non empty array to get first element.')
     }
     return values[0]
   }
