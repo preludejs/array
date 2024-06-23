@@ -2,7 +2,8 @@
 export const dot =
   (values: number[], otherValues: number[]) => {
     let result = 0
-    for (let i = 0; i < values.length; ++i) {
+    const n = Math.min(values.length, otherValues.length)
+    for (let i = 0; i < n; ++i) {
       result += values[i] * otherValues[i]
     }
     return result
