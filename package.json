@@ -25,6 +25,7 @@
   "author": "Mirek Rusin (https://github.com/mirek)",
   "license": "MIT",
   "devDependencies": {
+    "@prelude/eslint-config": "0.0.1",
     "@swc/core": "1.6.5",
     "@swc/jest": "0.2.36",
     "@tsconfig/node20": "20.1.4",
