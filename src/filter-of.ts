@@ -1,8 +1,8 @@
 import type { Predicate } from './predicate.js'
 
-export const filter =
+export const filterOf =
   <T>(predicate: Predicate<T>, thisArg?: unknown) =>
     (values: T[]): T[] =>
       values.filter(predicate, thisArg)
 
-export default filter
+export default filterOf
